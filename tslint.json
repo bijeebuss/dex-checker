@@ -1,0 +1,38 @@
+{
+  "defaultSeverity": "error",
+  "jsRules": {},
+  "rules": {
+    "max-line-length": {
+      "options": [150]
+    },
+    "object-literal-key-quotes": {
+      "options": "as-needed"
+    },
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-leading-underscore",
+      "allow-pascal-case"
+    ],
+    "no-any": true,
+    "no-unsafe-any": true,
+    "promise-function-async": true,
+    "await-promise": true,
+    "no-floating-promises": true,
+    "no-implicit-dependencies": true,
+    "no-inferred-empty-object-type": true,
+    "no-return-await": true,
+    "no-shadowed-variable": true,
+    "no-string-throw": true,
+    "no-unbound-method": true,
+    "no-var-keyword": true,
+    "no-void-expression": [true, "ignore-arrow-function-shorthand"],
+    "restrict-plus-operands": true,
+    "strict-boolean-expressions": true,
+    "triple-equals": true,
+    "use-isnan": true,
+    "no-default-export": true
+  },
+  "rulesDirectory": []
+}

@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "lib": ["es6", "dom"],
+    "outDir": "build",
+    "incremental": true,
+    "inlineSourceMap": true,
+    "sourceMap": false,
+    "moduleResolution": "node",
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "keyofStringsOnly": true,
+    "skipLibCheck": true,
+    "typeRoots": ["./node_modules/@types", "./typings"]
+  },
+  "exclude": ["node_modules", "build"]
+}
