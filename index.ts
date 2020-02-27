@@ -2,7 +2,7 @@ import {default as fetch} from 'node-fetch'
 
 async function main() {
     const tokens = [
-        {name: 'TUSD', price: 1.005}
+        {name: 'TUSD', price: 1.008}
     ]
 
     for (const token of tokens) {
